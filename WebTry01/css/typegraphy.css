@@ -1,0 +1,49 @@
+body{
+	font-size: 76%;
+	font-family: "微软雅黑", "Arial", sans-serif;
+}
+body *{
+	font-size: 1em;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+header nav{
+	font-family: simsun, "Arial", sans-serif;
+}
+header nav a{
+	text-decoration: none;
+	font-weight: bold;
+}
+article{
+	line-height: 1.8em;
+	padding: 4%;
+}
+article p {
+	margin: 1em 0;
+}
+h1{
+	font-family: georgia, "times new roman", sans-serif;
+	font: 2.4em normal;
+}
+h2{
+	font: 1.8em normal;
+}
+h3{
+	font: 1.4em normal;
+	margin-top: 1em;
+}
+#imagegallery li{
+	list-style-type: none;
+}
+textarea{
+	font-family: "微软雅黑", "Arial", sans-serif;
+}
+
+dt{
+	margin-right: 1em;
+}
+dd{
+	margin-right: 3em;
+}

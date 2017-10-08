@@ -1,0 +1,142 @@
+section, header, article, nav{
+	display: block;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin: 1em 10%;
+	background-image: url(../img/001.jpg);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-x;
+	max-width: 80em;
+}
+header{
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: bottom right;
+	border-width: 0.1em;
+	border-style: solid;
+	border-bottom-width: 0;
+}
+header nav{
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	border-width: 0.1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 10%;
+}
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: 0.1em;
+	border-left-style: solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	/*background-image: url(../img/02.gif);*/
+	display: block;
+	float: left;
+	padding: 0.5em 2em;
+	border-right: 0.1em solid;
+}
+article{
+	border-width: 0.1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 0%;
+	line-height: 1.8em;
+}
+article img{
+	border-width: 0.1em;
+	border-style: solid;
+	outline-width: 0.1em;
+	outline-style: solid;
+}
+
+#about header{
+	background-image: url(../img/002.jpg);
+}
+#photos header{
+	background-image: url(../img/003.jpg);
+}
+#live header{
+	background-image: url(../img/004.jpg);
+}
+#contact header{
+	background-image: url(../img/005.jpg);
+}
+#slideshow{
+	width: 500px; height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+#frame{
+	position: absolute;
+	top: 0; left: 0;
+	z-index: 99;
+}
+#imageGallery li{
+	display: inline;
+}
+#preview0{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#imgPreview0{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*Live界面  表格*/
+td{
+	padding: 0.5em 3em;
+}
+th{
+	color: #edc;
+	background-color: #455;
+}
+tr td{
+	color: #223;
+	background-color: #eb6;
+}
+
+dl{
+	overflow: hidden;
+}
+dt{
+	float: left;
+}
+dd{
+	float: left;
+}
+
+/*Contact界面  表单*/
+label{
+	display: block;
+}
+fieldset{
+	border: 0;
+}
+
+#loading{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-repeat: round;
+}
